@@ -4,19 +4,23 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    
     <script src="assets/javascript/game.js"></script>
-    <title>Document</title>
+
 </head>
 <p id="previous"></p>
-<p id="win"></p>
-<P id="lost"></p>
+<p id="wins"></p>
+<P id="Losses"></p>
 <p id="random-result"></p>
 <p id="button"></p>
+<p id="imageCrystal"</p>
 
     
 <body>  
-
+        
   
 <div class="container"> 
     
@@ -30,7 +34,7 @@
         <p class="lead"></p>
         <hr class="my-4">
         <p></p>
-        <a class="btn btn-primary btn-lg"  role="button"></a>
+        
         </div>
   
         <div class="container2"> 
@@ -49,35 +53,89 @@
             </div>     
         </div class="container2">
 
-        <div class="container3"> 
-                        <button type="button" class="btn btn-primary btn-lg">Large button</button>
-                        <button type="button" class="btn btn-secondary btn-lg">Large button</button>
-                
-        </div class="container3">
-
-        <div class="container4">
-            <div id="crystals"></div> 
-            <div class="crystals"></div> 
-                   <div class="col-lg-2">
-        <a href="#" class="btn btn-secondary btn-lg active" role="button2" aria-pressed="true">Link</a>
-        <a href="#" class="btn btn-primary btn-lg active" role="button3" aria-pressed="true">Primary link</a>
-                </div>
-                </div>    
-        </div class="container4">
-        <div class="container5"> 
-                <div class="row">
-                   <div class="col-lg-3">
-        <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Link</a>
-        <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>
-        <a href="#" class="btn btn-secondary btn-lg active" role="button" aria-pressed="true">Link</a>
-        <a href="#" class="btn btn-primary btn-lg active" role="button" aria-pressed="true">Primary link</a>
-                </div>
-                </div>    
-        </div class="container5">
-
-            <!-- <p>"random-result"</p> -->
-             </div>
+         <!-- row 3 -->
+         <div class="row">
+            <div class="col col-sm-4">
+                    <div class="card">
+                            <div class="card-body3a">
+                                Total score:
+                              
+                            </div>
+                    </div>
             </div>
+         </div>
+       
+        </div>  
+           <div class="col col-sm-4">
+            <div class="card">
+                    <div class="card-body3b">
+                      Wins:<br>
+                      Losses:
+                    </div>
+                  </div>
+        <!-- 2  -->
+    <!-- </div> -->
+    </div>
+    <!-- row 4 -->
+    <div class="row">
+        <div class="col col-sm-6">
+                 
+                <!-- <style type="text/css">  -->
+ 
+                  
+                  <!-- </style> -->
+                <div class="card">
+                        <div class="card-body4-1">
+                                <img src="/assets/images/ametheyst.jpg" " height="50" width="50" />
+                          
+                        </div>
+                      </div>
+        </div>
+        <div class="col">
+                <div class="card">
+                        <div class="card-body4-2">
+                                <img src="/assets/images/ruby.jpg" " height="50" width="50" />
+                         
+                        </div>
+                      </div>
+        </div>
+        <div class="col col-sm-3">
+                <div class="card">
+                        <div class="card-body4-3">
+                                <img src="/assets/images/sapphire.jpg" " height="50" width="50" />
+                         .
+                        </div>
+                      </div>
+        </div>
+        <div class="col col-sm-3">
+                <div class="card">
+                        <div class="card-body4-4">
+                                <img src="/assets/images/topaz.jpg" " height="50" width="50" />
+                         
+                        </div>
+                      </div>             
+         </div>
+            
+                <!-- row 5 -->
+         <!-- <div class="row">
+            <div class=""col col-sm-4">
+                    <div class="card">
+                            <div class="card-body5a">
+                            
+                            </div>
+                          </div> -->
+                        <!-- row 6 -->
+        <!-- <div class="row">
+            <div class=""col col-sm-4">
+                    <div class="card">
+                            <div class="card-body5b">
+                              
+                            </div>
+                         </div>
+                      </div>
+                   </div> -->
+             </div>
+     </div>
         
             
        
@@ -93,7 +151,7 @@
 
 </script>
 
-<!-- Include external JS file -->
+<script src="game.js"></script>
 
 </body>
 </html>
